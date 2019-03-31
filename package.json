@@ -1,0 +1,27 @@
+{
+  "name": "netlify-linebot-sample",
+  "version": "1.0.0",
+  "description": "Netlifyを利用したLINE Botのサンプル",
+  "main": "index.js",
+  "scripts": {
+    "build": "netlify-lambda build src/",
+    "serve": "netlify-lambda serve src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rykawamu/netlify-linebot-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rykawamu/netlify-linebot-sample/issues"
+  },
+  "homepage": "https://github.com/rykawamu/netlify-linebot-sample#readme",
+  "devDependencies": {
+    "netlify-lambda": "^1.4.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
